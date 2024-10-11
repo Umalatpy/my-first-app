@@ -1,18 +1,6 @@
-<<<<<<< HEAD
-<div>
-    <button (click)="onSelectedUser()" >
-        <img [src]="imagePath">
-        <span>{{ selectedUser.name }}</span>
+<div style="width:300px">
+    <button  (click)="onSelectUser()" >
+        <img [src]="imagePath" [alt]="selectedUser().name" />
+        <span>{{ selectedUser().name }}</span>
     </button>
 </div>
-=======
-<p>user works!</p>
-<div>
-    <button>
-        <img src="@img" alt="">
-        <span>
-            NAME
-        </span>
-    </button>
-</div>
->>>>>>> 1cba9a11ea086b627ab87091ec432a2067d1c46f
