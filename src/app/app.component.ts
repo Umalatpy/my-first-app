@@ -12,5 +12,4 @@ import { UserComponent } from './user/user.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'my-first-app';
 }
